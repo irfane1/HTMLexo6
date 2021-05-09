@@ -2,11 +2,47 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercice 6</title>
 </head>
 <body>
-    
+    <form>
+        <fieldset>
+            <legend>Votre identité</legend>
+            <label for="name">1. Nom : </label><input type="text" placeholder="Nom">
+            <br>
+            <label for="name">2. Prénom : </label><input type="text" placeholder="Prénom">
+            <br>
+            <label for="name">3. Adresse mail : </label><input type="text" placeholder="Adresse mail">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Adresse de livraison</legend>
+            <label for="name">1. Adresse : </label><textarea name="adresse" id="adresse" cols="20" rows="4"></textarea>
+            <br>
+            <label for="name">2. Code postal : </label><input type="text" placeholder="Code postal">
+            <br>
+            <label for="name">3. Ville : </label><input type="text" placeholder="Ville">
+        </fieldset>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Informations de réglement</legend>
+            <label for="name">1. Type de carte bancaire : </label>
+            <br>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">VISA</label>
+            <br>
+            <input type="radio" name="radio" id="radio">
+            <label for="radio">Mastercard</label>
+            <br>
+            <label for="name">2. Numéro de carte : </label><input type="text" placeholder="Numéro de carte">
+            <br>
+            <label for="name">3. Code de sécurité : </label><input type="text" placeholder="Code de sécurité">
+            <br>
+            <label for="name">4. Nom du titulaire : </label><input type="text" placeholder="Nom du titulaire">
+        </fieldset>
+    </form>
+    <input type="submit" value="J'achète!">
 </body>
 </html>
